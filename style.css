@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Styles */
+header {
+  padding: 20px 0;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f0f0f0;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Projects Section Styles */
+.projects {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-text {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* About Section Styles */
+.about {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about .profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Carousel Section Styles */
+.carousel-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.carousel-inner .carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner .carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
